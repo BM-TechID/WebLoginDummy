@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   if ($username === $usernameValid && $password === $passwordValid) {
     // Jika verifikasi berhasil, alihkan ke halaman lain atau tampilkan pesan berhasil login
-    header("Location: tfm");
+    header("Location: admin");
     exit;
   } else {
     // Jika verifikasi gagal, tampilkan pesan kesalahan
